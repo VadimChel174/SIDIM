@@ -140,6 +140,7 @@ a {
   padding: 18px 0 42px 24px;
   position: relative;
   z-index: 3;
+  min-width: 0;
 }
 
 .eyebrow,
@@ -166,12 +167,14 @@ a {
 }
 
 .intro-text {
-  max-width: 410px;
+  width: 100%;
+  max-width: 330px;
   margin: 27px 0 0;
   color: var(--muted);
   font-size: 15px;
   line-height: 1.65;
   font-weight: 500;
+  overflow-wrap: break-word;
 }
 
 .trust-line {
